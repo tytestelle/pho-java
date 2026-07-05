@@ -1,1 +1,14 @@
+spring:
+  application:
+    name: pho-java
 
+storage:
+  local:
+    base-path: ./photos   # 本地存储根目录，可修改
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.example.pho: DEBUG
